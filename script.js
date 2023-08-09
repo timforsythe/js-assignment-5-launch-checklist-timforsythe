@@ -14,8 +14,9 @@ window.addEventListener("load", function() {
         console.log(listedPlanets);
         // Below this comment call the appropriate helper functions to pick a planet fom the list of planets and add that information to your destination.
         let chosenPlanet = pickPlanet(listedPlanets);
-        addDestinationInfo(document, chosenPlanet.name, chosenPlanet.diameter, chosenPlanet.star, chosenPlanetPlanet.distance, chosenPlanet.moons, chosenPlanet.image);
+        addDestinationInfo(document, chosenPlanet.name, chosenPlanet.diameter, chosenPlanet.star, chosenPlanet.distance, chosenPlanet.moons, chosenPlanet.image);  
     })
+
     
     let list = document.getElementById("faultyItems");
     list.style.visibility = "hidden";
